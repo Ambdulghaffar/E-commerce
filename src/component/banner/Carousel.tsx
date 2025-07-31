@@ -1,15 +1,20 @@
 'use client';
+import { useEffect } from "react";
 import Card from "../card/Card";
 import 'flowbite';
 
 export default function Carousel() {
-  
+    useEffect(() => {
+    import("flowbite").then(() => {
+      // Flowbite JS chargé et initialisé
+    });
+  }, []);
   return (
   <>
     <div
       id="indicators-carousel"
       className="relative w-full"
-      data-carousel="static"
+      data-carousel="slide"
     >
       <div className="relative w-full h-screen overflow-hidden rounded-lg md:h-96">
         <div

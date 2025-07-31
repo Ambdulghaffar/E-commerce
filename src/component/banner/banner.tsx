@@ -1,12 +1,10 @@
 import React from "react";
-import Carousel from "./Carousel";
-
-
+import Card from "../card/Card";
 
 export default function Banner() {
   return (
     <>
-    <Carousel/>
+    <Card img="/Images/image1.jpg"/>
     </>
   );
 }
