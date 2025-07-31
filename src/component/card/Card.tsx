@@ -1,8 +1,8 @@
-export default function Card() {
+export default function Card({img}: {img: string}) {
   return (
     <>
       <div className="grid grid-cols-2 gap-0">
-        <div className="h-3/6 text-center pt-32">
+        <div className="h-3/6 text-center pt-24">
           <div>
             <p className="font-thin text-2xl">Lorem ipsum dolor sit amet consectetur</p>
           </div>
@@ -22,7 +22,7 @@ export default function Card() {
           </div>
         </div>
         <div className="w-full">
-          <img src="/Images/image1.jpg" alt="" className="h-3/6 w-full" />
+          <img src={img} alt="" className="h-3/6 w-full" />
         </div>
       </div>
     </>

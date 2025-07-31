@@ -13,19 +13,19 @@ export default function Carousel() {
           className="duration-700 ease-in-out "
           data-carousel-item="active"
         >
-          <Card/>
+          <Card img="/Images/image1.jpg"/>
         </div>
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-          <Card />
+          <Card img="/Images/image2.jpg" />
         </div>
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-          <Card />
+          <Card img="/Images/image1.jpg"/>
         </div>
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-          <Card />
+          <Card img="/Images/image2.jpg"/>
         </div>
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-          <Card />
+          <Card img="/Images/image1.jpg"/>
         </div>
       </div>
       <div className="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-5 left-1/2">
