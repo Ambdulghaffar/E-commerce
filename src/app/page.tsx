@@ -1,8 +1,10 @@
+import Banner from "./component/banner/banner";
+
 /* eslint-disable @next/next/no-img-element */
 export default function Home() {
   return (
     <>
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-2 gap-4 mt-5">
         <div>
           <nav className="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -16,7 +18,7 @@ export default function Home() {
                   alt="Flowbite Logo"
                 />
                 <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                  Flowbite
+                  E-Shop
                 </span>
               </a>
               <button
@@ -80,7 +82,7 @@ export default function Home() {
         </div>
         <div className="flex items-center ms-auto me-7">
           <div>
-            <form className="max-w-md mx-auto me-24">
+            <form className="max-w-md mx-auto me-16 ">
               <label
                 htmlFor="default-search"
                 className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
@@ -98,7 +100,7 @@ export default function Home() {
                 />
                 <button
                   type="submit"
-                  className="text-white absolute end-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  className="text-white absolute end-2.5 bottom-2.5 focus:ring-4 focus:outline-none bg-black hover:bg-gray-600 font-medium rounded-full text-sm px-4 py-2 "
                 >
                   <svg
                     className="w-4 h-4 text-gray-500 dark:text-gray-400"
@@ -137,6 +139,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <Banner/>
     </>
   );
 }
