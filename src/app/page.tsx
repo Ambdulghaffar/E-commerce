@@ -1,4 +1,5 @@
-import Banner from "./component/banner/banner";
+import Banner from "@/component/banner/banner";
+
 
 /* eslint-disable @next/next/no-img-element */
 export default function Home() {
