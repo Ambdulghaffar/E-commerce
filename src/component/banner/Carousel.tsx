@@ -10,7 +10,7 @@ export default function Carousel() {
     >
       <div className="relative w-full h-screen overflow-hidden rounded-lg md:h-96">
         <div
-          className=" duration-700 ease-in-out "
+          className="duration-700 ease-in-out "
           data-carousel-item="active"
         >
           <Card/>
