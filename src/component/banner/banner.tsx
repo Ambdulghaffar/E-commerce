@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function Banner() {
   return (
@@ -14,35 +15,35 @@ export default function Banner() {
             data-carousel-item="active"
           >
             <img
-              src="/image1.jpg"
+              src="/Images/image1.jpg"
               className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               alt="..."
             />
           </div>
           <div className="hidden duration-700 ease-in-out" data-carousel-item>
             <img
-              src="/image1.jpg"
+              src="/Images/image1.jpg"
               className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               alt="..."
             />
           </div>
           <div className="hidden duration-700 ease-in-out" data-carousel-item>
             <img
-              src="/image1.jpg"
+              src="/Images/image1.jpg"
               className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               alt="..."
             />
           </div>
           <div className="hidden duration-700 ease-in-out" data-carousel-item>
             <img
-              src="/image1.jpg"
+              src="/Images/image1.jpg"
               className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               alt="..."
             />
           </div>
           <div className="hidden duration-700 ease-in-out" data-carousel-item>
             <img
-              src="/image1.jpg"
+              src="/Images/image1.jpg"
               className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               alt="..."
             />
