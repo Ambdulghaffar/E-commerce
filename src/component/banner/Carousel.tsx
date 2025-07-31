@@ -1,6 +1,9 @@
+'use client';
 import Card from "../card/Card";
+import 'flowbite';
 
 export default function Carousel() {
+  
   return (
   <>
     <div

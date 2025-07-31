@@ -1,5 +1,4 @@
 import Banner from "@/component/banner/banner";
-import Card from "@/component/card/Card";
 import Navbar from "@/component/navbar/Navbar";
 import 'flowbite';
 
